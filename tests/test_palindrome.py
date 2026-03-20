@@ -27,12 +27,3 @@ def test_est_palindrome_nombres():
 
 def test_est_palindrome_nombres_non_palindrome():
     assert est_palindrome("12345") == False
-
-def test_est_palindrome_failing_non_palindrome():
-    assert est_palindrome("hello") == True  # This should fail
-
-def test_est_palindrome_failing_palindrome():
-    assert est_palindrome("radar") == False  # This should fail
-
-def test_est_palindrome_failing_with_spaces():
-    assert est_palindrome("a man a plan a canal panama") == False  # This should fail
