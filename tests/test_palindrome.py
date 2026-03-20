@@ -1,5 +1,6 @@
 import pytest
 from src.palindrome import est_palindrome
+import pylint
 
 def test_est_palindrome_vide():
     assert est_palindrome("") == True
